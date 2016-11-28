@@ -1,0 +1,20 @@
+{
+  "name": "jwtapp",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "DeeGort"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "dependencies": {
+    "bootstrap-css": "^3.3.6",
+    "jquery": "^2.2.4",
+    "angular": "^1.5.9",
+    "angular-route": "^1.5.9",
+    "ngstorage": "^0.3.11"
+  },
+  "install": {
+    "path": "client/libs"
+  }
+}

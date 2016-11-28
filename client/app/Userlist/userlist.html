@@ -1,0 +1,22 @@
+<h2>Users</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Password / Hash</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><input class="form-control" ng-model="user.username"></td>
+            <td><input class="form-control" ng-model="user.password"></td>
+            <td><button class="btn btn-primary" ng-click="add()">Add Contact</td>
+        </tr>
+        <tr ng-repeat="user in userlist">
+            <td>{{user.username}}</td>
+            <td>{{user.password}}</td>
+            <td><button class="btn btn-danger" ng-click="remove(user._id)">Remove</button></td>
+        </tr>
+    </tbody>
+</table>
